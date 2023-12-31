@@ -12,7 +12,7 @@
             ],
             "isVeg":true,
             "price": 70.00,
-            "url": "../dist/images/paneer-butter-masala.jpg",
+            "url": "./images/paneer-butter-masala.jpg",
             "alt":"image of paneer butter masala"
         },
         {
@@ -26,7 +26,7 @@
             ],
             "isVeg":true,
             "price": 60.00,
-            "url": "../dist/images/kadhai-paneer.jpg",
+            "url": "./images/kadhai-paneer.jpg",
             "alt":"image of kadhai paneer"
         },
         {
@@ -39,7 +39,7 @@
             ],
             "isVeg":true,
             "price": 60.00,
-            "url": "../dist/images/dal-makhni.jpg",
+            "url": "./images/dal-makhni.jpg",
             "alt":"image of dal makhni"
         },
         {
@@ -51,7 +51,7 @@
             ],
             "isVeg":true,
             "price": 60.00,
-            "url": "../dist/images/rajma-masala.jpg",
+            "url": "./images/rajma-masala.jpg",
             "alt":"image of rajma masala"
         },
         {
@@ -63,7 +63,7 @@
             ],
             "isVeg":true,
             "price": 50.00,
-            "url": "../dist/images/kadhi-pakora.jpg",
+            "url": "./images/kadhi-pakora.jpg",
             "alt":"image of kadhi pakora"
         }
 
@@ -84,7 +84,7 @@
             ],
             "isVeg":true,
             "price": 40.00,
-            "url": "../dist/images/pav-bhaji.jpg",
+            "url": "./images/pav-bhaji.jpg",
             "alt":"image of pav bhaji"
         },
         {
@@ -97,7 +97,7 @@
             ],
             "isVeg":true,
             "price": 20.00,
-            "url": "../dist/images/samosa.jpg",
+            "url": "./images/samosa.jpg",
             "alt":"image of samosa"
         }
 
