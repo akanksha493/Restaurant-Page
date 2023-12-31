@@ -1,0 +1,84 @@
+.aboutuspage{
+    padding-top: 58px;
+    background-image: url("../images/menu-bg3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inner-aboutus-container{
+    background-color: black;
+    width: min(900px, 90vw);
+}
+.our-story,
+.feedback-container{
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+.our-story h2{
+    font-family: var(--ff-parisienne);
+    font-size: 2rem;
+    text-align: center;
+}
+.our-story p{
+    font-family: var(--ff-kalam);
+}
+.contact-us-container{
+    text-align: center;
+    background-color: var(---nav-color);
+    padding: 1rem 0rem;
+}
+.location,
+.hours,
+.contact{
+    margin: 1rem 0rem;
+}
+.contact-us-container p{
+    font-weight: 200;
+    line-height: 1.5;
+}
+.feedback-container{
+    padding-top: 2rem;
+}
+.feedback-container p{
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.5;
+}
+form{
+    margin: 1.5rem 0rem;
+}
+input, textarea{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 1rem;
+    font-family: var(--ff-montserrat);
+    font-size: clamp(0.8rem, 2vw, 0.9rem);
+}
+label{
+    font-size: clamp(0.6rem, 2vw ,0.8rem);
+}
+.send{
+    border: 2px solid var(---nav-color);
+    background-color: var(---nav-color);
+    color: white;
+    padding: 0.5rem 2.5rem;
+    cursor: pointer;
+    transition: background-color 300ms ease-in-out,
+    color 300ms ease-in-out;
+}
+.send:hover{
+    background-color: transparent;
+}
+
+@media(width>850px){
+    .contact-us-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}

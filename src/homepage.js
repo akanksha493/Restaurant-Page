@@ -2,11 +2,14 @@ import { renderMenu } from "./menu";
 import { renderAboutus } from "./aboutus";
 
 const renderHomepage = () =>{
-    // console.log("this is renderHomepage");
+    //empty content
     const content = document.querySelector("#content");
     content.innerHTML = "";
-    
+
     //content creation
+    const innerContainer = document.createElement("div");
+    innerContainer.classList.add("homepage");
+
     const blankDiv = document.createElement("div");
     blankDiv.className = "blank";
     const textDiv = document.createElement("div");
@@ -20,14 +23,13 @@ const renderHomepage = () =>{
     commaSpan.id = "comma";
     subheading.appendChild(commaSpan);
     const subheadingSpan = document.createElement("span");
-    // subheading.textContent = "Where Indian flavours come to life";
     subheadingSpan.textContent = "Where Indian flavours come to life";
     subheading.appendChild(commaSpan);
     subheading.appendChild(subheadingSpan);
     const para1 = document.createElement("p");
     para1.textContent = "Experience the most excuisite blends of flavour. Craving for some indian cuisine? We got you. Wanna try something new ? We got you!";
     const para2 = document.createElement("p");
-    para2.textContent = "Visite us or, order online, we do both ;)";
+    para2.textContent = "Visite us or, book an online reservation.";
 
     const bttnsDiv = document.createElement("div");
     bttnsDiv.className = "bttns";
@@ -67,8 +69,9 @@ const renderHomepage = () =>{
     textDiv.appendChild(socialDiv);
 
 
-    content.appendChild(blankDiv);
-    content.appendChild(textDiv);
+    innerContainer.appendChild(blankDiv);
+    innerContainer.appendChild(textDiv);
+    content.appendChild(innerContainer);
 }
 
 export {renderHomepage};

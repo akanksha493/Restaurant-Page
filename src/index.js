@@ -11,9 +11,6 @@ const home = document.querySelector("nav li:nth-child(1) a");
 const menu = document.querySelector("nav li:nth-child(2) a");
 const aboutus = document.querySelector("nav li:nth-child(3) a");
 
-console.log(home);
-
 home.addEventListener("click", renderHomepage);
 menu.addEventListener("click", renderMenu);
 aboutus.addEventListener("click", renderAboutus);
-// renderHomepage();
