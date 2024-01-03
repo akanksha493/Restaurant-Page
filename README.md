@@ -8,8 +8,17 @@ Build using webpack, vanilla JS.
 
 [Live Preview](https://akanksha493.github.io/Restaurant-Page/)
 
+**Home page**
+![](home.png)
+
+**Menu Page**
+![](menu.png)
+
+**About Page**
+![](about.png)
+
 ### Resources used
 1. for images - [wallpaperbat.com](https://wallpaperbat.com/indian-food-wallpapers), [freepik](https://www.freepik.com/free-photos-vectors/indian-food), [pixels](https://www.pexels.com/search/indian%20food/)
 2. website templates- [theme forest](https://themeforest.net/search/restaurant), [colorlib](https://colorlib.com/wp/cat/restaurant/)
-3. [name inspiration](https://budgetbranders.com/blog/creative-indian-restaurant-names/)
+3. [name](https://budgetbranders.com/blog/creative-indian-restaurant-names/)
 4. food description- [dasaana veg recepies](https://www.vegrecipesofindia.com/recipes/)
